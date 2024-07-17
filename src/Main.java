@@ -11,7 +11,7 @@ public class Main {
 
         System.out.println("Задача 2");
         int temperature = 10;
-        if (temperature <= 5) {
+        if (temperature < 5) {
             System.out.println("На улице " + temperature + " градусов нужно надеть шапку");
         }else {
             System.out.println("На улице " + temperature + " градусов можно идти без шапки");
@@ -43,7 +43,7 @@ public class Main {
             }else if (kid >= 5 && kid <= 14) {
                 System.out.println("Если возраст ребенка равен " + kid + " можно кататься на аттракционе в сопровождении");
             }else if (kid > 14) {
-                System.out.println("Если возраст ребенка равен " + kid + " без сопровождения взрослого");
+                System.out.println("Если возраст ребенка равен " + kid + " можно кататься без сопровождения взрослого");
             }
             System.out.println("Задача 6");
             int place = 50;
